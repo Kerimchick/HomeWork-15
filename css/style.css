@@ -38,6 +38,10 @@ img{
     width: 33.3333%;
     padding: 0 15px;
 }
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
 .features-row{
     margin: 0 -45px;
 }
@@ -441,4 +445,248 @@ background-color: #F25822;
     border-radius: 50px;
     border:none;
     margin-top:27px;
+}
+.team{
+    padding: 86px 0 100px;
+    text-align: center;
+}
+.team-title{
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 45px;
+    line-height: 67px;
+
+}
+.team-desc{
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin: 12px 0 52px;
+}
+.team-box{
+    padding: 50px 69px 55px;
+}
+.team-name{
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 14px;
+}
+.team-special{
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #888888;
+    margin-bottom: 23px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons svg:hover{
+    border-radius: 50%;
+    border: none;
+    background: #F25822;
+    fill: #FFFFFF;
+}
+.testimonial{
+    text-align: center;
+    padding: 93px 0 142px;
+}
+.testimonail-title{
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 45px;
+    line-height: 53px;
+}
+.testimonail-desc{
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin: 19px 0 55px;
+}
+.testi-box{
+    padding: 25px 30px 27px;
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+}
+.testi-img{
+    width: 50px;
+    height: 50px;
+    margin: 26px 0 7px;
+}
+.testi-desc{
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+    position: relative;
+}
+.testi-name{
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+}
+.testi-special{
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #888888;
+}
+.testi-desc:before{
+    content: '„';
+    font-size: 85px;
+    color: #F0F0F0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -43px;
+}
+.blog {
+    text-align: center;
+    padding: 90px 0 100px;
+}
+
+.blog-box {
+    padding: 46px 30px 46px 0;
+    text-align: left;
+}
+
+.blog-title {
+    font-size: 45px;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+
+.blog-desc {
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.blog-box-title {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.blog-stats {
+    display: flex;
+    align-items: center;
+    margin: 21px 0;
+}
+
+.blog-stats div {
+    display: flex;
+    align-items: center;
+}
+
+.blog-stats div:not(:last-child) {
+    margin-right: 35px;
+}
+
+.blog-stats div svg {
+    margin-right: 6px;
+}
+
+.blog-stats div span {
+    font-size: 11px;
+    line-height: 150%;
+    color: #888888;
+}
+
+.blog-box-desc {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 26px;
+}
+
+.blog-box-link {
+    font-size: 11px;
+    line-height: 150%;
+    color: #F25822;
+}
+
+.blog-row {
+    border: 2px solid #EEEEEE;
+    margin: 55px 0 30px;
+    box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+}
+
+.owl-item {
+    opacity: 0.5;
+}
+
+.owl-item.center {
+    border: none;
+    opacity: 1;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #F25822;
+    height: 12px;
+    width: 12px;
+}
+.logo-info{
+    font-size: 16px;
+    line-height: 160%;
+    color: #666666;
+    margin: 40px 0;
+}
+.news-subtitle{
+    font-size: 24px;
+    line-height: 160%;
+    color: black;
+    margin-bottom: 34px;
+}
+.col-3 ul li{
+    position: relative;
+}
+.col-3 ul li:before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: -15px;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+    background: #F25822;
+
+}
+.footer{
+    background: #f3f3f3;
+    padding-top:102px;
+}
+.footer-menu{
+    padding-left: 15px;
+}
+.footer-link{
+    color: #666666;
+    line-height: 230%;
+}
+.footer-link:not(:last-child){
+    margin-bottom: 15px;
+
+}
+.navigation{
+    font-size: 16px;
+    line-height: 150%;
+    color:#666666;
+
+}
+.navigation span{
+    color: black;
+}
+.navigation:not(:last-child){
+    margin-bottom: 10px;
+}
+.copyright{
+    text-align: center;
+    padding: 19px 0;
+    border-top:1px solid #CCCCCC;
+    color: #888888;
+    margin-top: 54px;
 }
